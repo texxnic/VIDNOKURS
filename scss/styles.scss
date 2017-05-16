@@ -1,0 +1,319 @@
+$yellow: #ffe000;
+
+body{
+  overflow-x:hidden;
+}
+
+header {
+  background-color: rgb(52, 54, 53);
+  opacity: 0.769;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  padding-top:9px;
+  z-index:9999;
+
+    .logo{
+    width:100%;
+    height: auto;
+    margin-top:4px;
+    }
+    
+    .headerLinks{
+    text-align:center;
+    margin-top:16px;
+    word-spacing: 0px;
+    }
+
+    .numberBoreder{
+    text-align:center;
+    border: 3px solid $yellow;
+    border-radius:20px;
+    margin-top:6px;
+    }
+  
+    a{
+    color:#fff;
+    text-decoration: underline;
+    font-size:15px;
+    font-size:18px !important;
+  font-weight: 100;
+
+    }
+    a:hover{
+    color:#eee !important;
+    }
+}
+
+.mainScrn{
+    width: 100%;
+    height:auto;
+    background-image:url('/img/1gb.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+
+    h1{
+    font-size:40px !important;
+    }
+}
+
+
+.formDiv{
+  width: 100%;
+  height:auto;
+  background-image:url('/img/formBG.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  text-align: center;
+
+  .formButton{
+   
+  background: #ffe100;
+  background-image: -webkit-linear-gradient(top, #ffe100, #ff7700);
+  background-image: -moz-linear-gradient(top, #ffe100, #ff7700);
+  background-image: -ms-linear-gradient(top, #ffe100, #ff7700);
+  background-image: -o-linear-gradient(top, #ffe100, #ff7700);
+  background-image: linear-gradient(to bottom, #ffe100, #ff7700);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+  }
+
+  .formButton:hover {
+  background: #d4b802;
+  background-image: -webkit-linear-gradient(top, #d4b802, #d16200);
+  background-image: -moz-linear-gradient(top, #d4b802, #d16200);
+  background-image: -ms-linear-gradient(top, #d4b802, #d16200);
+  background-image: -o-linear-gradient(top, #d4b802, #d16200);
+  background-image: linear-gradient(to bottom, #d4b802, #d16200);
+  text-decoration: none;
+}
+  .formButton:active{
+    transform: scale(0.9);
+  }
+
+}
+#teacher{
+  width: 100%;
+  height:auto;
+  background-image:url('/img/teacherBG.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+
+  .teacherName{
+  font-family: 'Exo 2', sans-serif;
+  color: #333;
+  font-weight: 800;
+  font-size: 80px;
+  }
+
+  .tPhoto{
+    border: 15px solid $yellow;
+  }
+}
+#prices{
+  background: #ffdf00;
+  background: -moz-linear-gradient(-45deg, #ffdf00 0%, #ff7800 100%);
+  background: -webkit-linear-gradient(-45deg, #ffdf00 0%,#ff7800 100%);
+  background: linear-gradient(135deg, #ffdf00 0%,#ff7800 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdf00', endColorstr='#ff7800',GradientType=1 );
+  min-height:400px;
+  .botDiv{
+    border: 0px solid #fff;
+    border-bottom-width: 1px;
+  }
+  .priceWhite{
+    font-family: 'Exo 2', sans-serif;
+    font-size:25px;
+    font-weight: 800;
+    color:white;
+      
+      .rubMon{
+        font-size:15px;
+      }
+  }
+
+  .lineT{
+      font-size:18px;
+      font-weight: 800;
+      color:black;
+      text-decoration:line-through;
+  }
+  .priceGray{
+    font-family: 'Exo 2', sans-serif;
+    font-size:20px;
+    font-weight: 800;
+    color:#333;
+  }
+
+
+}
+#otziv{
+  width: 100%;
+  height:auto;
+  background-image:url('/img/otzvBG.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  text-align: center;
+
+  a{
+  color: #ff7800;
+  text-decoration:underline;
+  }
+  a:hover{
+    color: $yellow;
+  }
+}
+
+#advantages{
+  width: 100%;
+  height:auto;
+  background-image:url('/img/preemBG.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+#cntcsDiv{
+  .phantom{
+  
+  position:absolute;
+  font-size:200px;
+  opacity:0.1;
+  z-index:-999999;
+  font-family: 'Exo 2', sans-serif;
+  transform:translateY(-260px);
+  font-weight: 1000;
+  right:-100px;
+
+  }
+
+
+  .INP{
+  text-align:center;
+  color:#999;
+  }
+
+  .fLogo{
+    width: 80%;
+    height: auto;
+    margin-top:40px;
+  }
+
+  h2{
+    color:#333;
+  }
+}
+
+
+
+.divSpec{
+  padding:90px 5px 15px 5px;
+  
+}
+
+.bgSpecs{
+  width: 100%;
+  height:auto;
+}  
+
+.formBorder{
+  
+  width:100%;
+  border: 10px solid $yellow;
+  margin-bottom:30px;
+}
+
+
+
+.fLeft{
+  float: left;
+}
+
+
+
+// FONTS
+h1{
+  font-family: 'Exo 2', sans-serif;
+  color: #333;
+  font-weight: 800;
+}
+
+p{
+  font-family: 'Exo 2', sans-serif;
+  font-size:20px !important;
+  font-weight: 100;
+
+}
+
+h2{
+  margin-bottom:30px!important; 
+  color: black;
+font-family: 'Exo 2', sans-serif;
+  font-size:35px !important;
+  font-weight: 800;
+
+}
+h6{
+  color:white !important;
+  margin:0px;
+  font-family: 'Exo 2', sans-serif;
+  font-size:29px !important;
+  font-weight: 800;
+}
+.name{
+  color:white;
+  font-size:20px !important;
+  font-weight: 100;
+}
+
+.markBlack{
+  color:black;
+  font-size:80px;
+}
+
+.markYellow{
+  color:$yellow;
+  
+}
+
+
+
+.formTxt
+{
+    border: 0px solid #aaa;
+    border-bottom-width: 2px;
+    background-color: transparent;
+
+}
+
+
+
+
+.mt15{
+  margin:15px 0 0 0;
+}
+
+.mt25{
+  margin:25px 0 0 0;
+}
+
+.mt50{
+  margin-top:50px;
+}
+
+.txtLeft{
+ text-align:left; 
+}
+.txtRight{
+ text-align:right; 
+}
+.txtCenter{
+ text-align:center; 
+}
