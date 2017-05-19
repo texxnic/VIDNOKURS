@@ -124,6 +124,14 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center; }
+  #otziv .beforeArrow {
+    height: 100%; }
+  #otziv .afterArrow {
+    height: 100%; }
+  #otziv .otzTxtDiv {
+    min-height: 340px; }
+  #otziv p {
+    font-weight: 500; }
   #otziv a {
     color: #ff7800;
     text-decoration: underline; }
@@ -155,8 +163,12 @@ header {
     width: 80%;
     height: auto;
     margin-top: 30px; }
+  #cntcsDiv .littleTxt {
+    color: #333;
+    font-size: 5px !important; }
   #cntcsDiv h2 {
-    color: #333; }
+    color: #333;
+    font-size: 25px !important; }
 
 .divSpec {
   padding: 90px 5px 15px 5px; }
@@ -181,7 +193,7 @@ h1 {
 p {
   font-family: 'Exo 2', sans-serif;
   font-size: 20px !important;
-  font-weight: 100; }
+  font-weight: 500; }
 
 h2 {
   margin-bottom: 30px !important;
@@ -199,7 +211,7 @@ h6 {
 
 .name {
   color: white;
-  font-size: 20px !important;
+  font-size: 23px !important;
   font-weight: 100; }
 
 .markBlack {
