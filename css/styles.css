@@ -230,7 +230,7 @@ h6 {
 #image-gal {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 40px; }
   #image-gal a {
     margin-top: 10px; }
